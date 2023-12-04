@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: #232f3e;
+    color: #fff;
+    padding: 20px 0;
+    margin: 0;
+}
+
+form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.options {
+    margin-left: 20px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff6600;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.results-box {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.result-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+#score {
+    font-size: 36px;
+    color: #ff9900;
+}
+
+.navbar {
+    background-color: #232f3e;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/*index principal*/
+.nav-item {
+    display: inline;
+    margin-right: 1.5rem;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: all 0.8s;
+    padding: 0.3rem;
+}
+
+.nav-item a:hover {
+    border-bottom: 1px solid red;
+}
+
+.logo {
+    height: 7rem;
+    border-radius: 100%;
+}
+
+.nav-list {
+    margin-right: 5rem;
+}
+
+.olho {
+    width: 100%;
+    box-shadow: 0px 7px 22px -12px rgba(0, 72, 168, 0.34);
+    text-align: center;
+}
+
+.navegation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid red;
+}
+
+.era-vargas {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.era-vargas-image, .getulio-vargas-image {
+    max-width: 25rem;
+    height: auto;
+    margin: 20px 0;
+}
+
+
+.era-vargas h2, .era-vargas h3 {
+    color: #15317e;
+    margin: 10px 0;
+}
+
+
+.era-vargas ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.era-vargas p {
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
